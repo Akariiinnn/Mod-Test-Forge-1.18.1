@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "modtest:pistine_ore",
+    "modtest:pistine_block",
+    "modtest:raw_pistine_block",
+    "modtest:deepslate_pistine_ore",
+    "modtest:netherrack_pistine_ore",
+    "modtest:endstone_pistine_ore",
+    "modtest:speedy_block"
+  ]
+}

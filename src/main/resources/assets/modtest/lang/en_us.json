@@ -1,11 +1,19 @@
 {
   "item.modtest.pistine": "Pistine",
   "item.modtest.raw_pistine": "Raw Pistine",
+  "item.modtest.dowsing_rod": "Dowsing Rod",
+  "item.modtest.cucumber": "Cucumber",
+  "item.modtest.cucumber_salad": "Cucumber Salad",
 
   "block.modtest.pistine_block": "Pistine Block",
   "block.modtest.raw_pistine_block": "Raw Pistine Block",
   "block.modtest.pistine_ore": "Pistine Ore",
   "block.modtest.endstone_pistine_ore": "Endstone Pistine Ore",
   "block.modtest.deepslate_pistine_ore": "Deepslate Pistine Ore",
-  "block.modtest.netherrack_pistine_ore": "Netherrack Pistine Ore"
+  "block.modtest.netherrack_pistine_ore": "Netherrack Pistine Ore",
+  "block.modtest.speedy_block": "Speedy Block",
+
+  "itemGroup.pistinetab": "Pistine Mod",
+
+  "item.modtest.dowsing_rod.no_valuables": "No Valuables Found!"
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pistine",
+  "ingredients": [
+    {
+      "item": "modtest:pistine_block"
+    }
+  ],
+  "result": {
+    "item": "modtest:pistine",
+    "count": 9
+  }
+}
