@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "pistine",
+  "ingredient": {
+    "item": "modtest:endstone_pistine_ore"
+  },
+  "result": "modtest:pistine",
+  "experience": 0.7,
+  "cookingtime": 200
+}
