@@ -7,7 +7,7 @@ import me.akariiinnn.modtest.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -48,6 +48,26 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_STAIRS = registerBlock("pistine_stairs",
+            () -> new StairBlock(() -> ModBlocks.PISTINE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_SLAB = registerBlock("pistine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_FENCE = registerBlock("pistine_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_FENCE_GATE = registerBlock("pistine_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_WALL = registerBlock("pistine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

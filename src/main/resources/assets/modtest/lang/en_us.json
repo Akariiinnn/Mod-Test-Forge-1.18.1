@@ -5,6 +5,13 @@
   "item.modtest.cucumber": "Cucumber",
   "item.modtest.cucumber_salad": "Cucumber Salad",
 
+  "item.modtest.pistine_sword": "Pistine Sword",
+  "item.modtest.pistine_pickaxe": "Pistine Pickaxe",
+  "item.modtest.pistine_axe": "Pistine Axe",
+  "item.modtest.pistine_hoe": "Pistine Hoe",
+  "item.modtest.pistine_shovel": "Pistine Shovel",
+  "item.modtest.fire_sword": "Fire Sword",
+
   "block.modtest.pistine_block": "Pistine Block",
   "block.modtest.raw_pistine_block": "Raw Pistine Block",
   "block.modtest.pistine_ore": "Pistine Ore",
@@ -12,6 +19,12 @@
   "block.modtest.deepslate_pistine_ore": "Deepslate Pistine Ore",
   "block.modtest.netherrack_pistine_ore": "Netherrack Pistine Ore",
   "block.modtest.speedy_block": "Speedy Block",
+
+  "block.modtest.pistine_slab": "Pistine Slab",
+  "block.modtest.pistine_stairs": "Pistine Stairs",
+  "block.modtest.pistine_fence": "Pistine Fence",
+  "block.modtest.pistine_wall": "Pistine Wall",
+  "block.modtest.pistine_fence_gate": "Pistine Fence Gate",
 
   "itemGroup.pistinetab": "Pistine Mod",
 
