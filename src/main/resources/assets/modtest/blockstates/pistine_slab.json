@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modtest:block/pistine_slab"
+    },
+    "type=double": {
+      "model": "modtest:block/pistine_block"
+    },
+    "type=top": {
+      "model": "modtest:block/pistine_slab_top"
+    }
+  }
+}
