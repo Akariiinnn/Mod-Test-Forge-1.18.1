@@ -12,6 +12,12 @@
   "item.modtest.pistine_shovel": "Pistine Shovel",
   "item.modtest.fire_sword": "Fire Sword",
 
+  "item.modtest.pistine_helmet": "Pistine Helmet",
+  "item.modtest.pistine_chestplate": "Pistine Chestplate",
+  "item.modtest.pistine_leggings": "Pistine Leggings",
+  "item.modtest.pistine_boots": "Pistine Boots",
+
+
   "block.modtest.pistine_block": "Pistine Block",
   "block.modtest.raw_pistine_block": "Raw Pistine Block",
   "block.modtest.pistine_ore": "Pistine Ore",
@@ -19,6 +25,13 @@
   "block.modtest.deepslate_pistine_ore": "Deepslate Pistine Ore",
   "block.modtest.netherrack_pistine_ore": "Netherrack Pistine Ore",
   "block.modtest.speedy_block": "Speedy Block",
+  "block.modtest.ebony_door": "Ebony Door",
+  "block.modtest.ebony_trapdoor": "Ebony Trapdoor",
+  "block.modtest.pistine_button": "Pistine Button",
+  "block.modtest.pistine_pressure_plate": "Pistine Pressure Plate",
+
+  "block.modtest.pink_rose": "Pink Rose",
+  "block.modtest.potted_pink_rose": "Potted Pink Rose",
 
   "block.modtest.pistine_slab": "Pistine Slab",
   "block.modtest.pistine_stairs": "Pistine Stairs",

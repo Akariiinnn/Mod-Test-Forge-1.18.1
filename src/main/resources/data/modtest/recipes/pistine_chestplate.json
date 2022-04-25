@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "modtest:pistine"
+    }
+  },
+  "result": {
+    "item": "modtest:pistine_chestplate"
+  }
+}

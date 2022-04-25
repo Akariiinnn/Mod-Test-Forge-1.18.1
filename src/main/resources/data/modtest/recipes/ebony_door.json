@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#P",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "P": {
+      "item": "modtest:pistine"
+    }
+  },
+  "result": {
+    "item": "modtest:ebony_door",
+    "count": 3
+  }
+}

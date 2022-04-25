@@ -1,0 +1,45 @@
+{
+  "item.modtest.pistine": "Pistine",
+  "item.modtest.raw_pistine": "Pistine Brut",
+  "item.modtest.dowsing_rod": "Bâton de Sourcier",
+  "item.modtest.cucumber": "Concombre",
+  "item.modtest.cucumber_salad": "Salade de Cocombre",
+
+  "item.modtest.pistine_sword": "Épée en Pistine",
+  "item.modtest.pistine_pickaxe": "Pioche en Pistine",
+  "item.modtest.pistine_axe": "Hâche en Pistine",
+  "item.modtest.pistine_hoe": "Houe en Pistine",
+  "item.modtest.pistine_shovel": "Pelle en Pistine",
+  "item.modtest.fire_sword": "Épée de feu",
+
+  "item.modtest.pistine_helmet": "Casque en Pistine",
+  "item.modtest.pistine_chestplate": "Plastron en Pistine",
+  "item.modtest.pistine_leggings": "Jambières en Pistine",
+  "item.modtest.pistine_boots": "Bottes en Pistine",
+
+
+  "block.modtest.pistine_block": "Bloc de Pistine",
+  "block.modtest.raw_pistine_block": "Bloc de Pistine Brut",
+  "block.modtest.pistine_ore": "Minerai de Pistine",
+  "block.modtest.endstone_pistine_ore": "Minerai de Pistine de l'End",
+  "block.modtest.deepslate_pistine_ore": "Minerai de Pistine Ardoise des abîmes",
+  "block.modtest.netherrack_pistine_ore": "Minerai de Pistine de Netherrack",
+  "block.modtest.speedy_block": "Speedy Bloc",
+  "block.modtest.ebony_door": "Porte en Ebony",
+  "block.modtest.ebony_trapdoor": "Trappe en Ebony",
+  "block.modtest.pistine_button": "Bouton en Pistine",
+  "block.modtest.pistine_pressure_plate": "Plaque de Pression en Pistine",
+
+  "block.modtest.pink_rose": "Rose Rose",
+  "block.modtest.potted_pink_rose": "Rose Rose en Pot",
+
+  "block.modtest.pistine_slab": "Demi-dalle en Pistine",
+  "block.modtest.pistine_stairs": "Escaliers en Pistine",
+  "block.modtest.pistine_fence": "Barrière en Pistine",
+  "block.modtest.pistine_wall": "Mur en Pistine",
+  "block.modtest.pistine_fence_gate": "Portillon en Pistine",
+
+  "itemGroup.pistinetab": "Pistine Mod",
+
+  "item.modtest.dowsing_rod.no_valuables": "No Valuables Found!"
+}

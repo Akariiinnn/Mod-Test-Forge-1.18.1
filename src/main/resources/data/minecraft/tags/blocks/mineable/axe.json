@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "modtest:ebony_door",
+    "modtest:ebony_trapdoor"
   ]
 }

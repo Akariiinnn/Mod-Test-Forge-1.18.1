@@ -7,6 +7,13 @@
     "modtest:deepslate_pistine_ore",
     "modtest:netherrack_pistine_ore",
     "modtest:endstone_pistine_ore",
-    "modtest:speedy_block"
+    "modtest:speedy_block",
+    "modtest:pistine_slab",
+    "modtest:pistine_stairs",
+    "modtest:pistine_wall",
+    "modtest:pistine_fence",
+    "modtest:pistine_fence_gate",
+    "modtest:pistine_pressure_plate",
+    "modtest:pistine_button"
   ]
 }

@@ -4,6 +4,8 @@ import com.google.common.util.concurrent.ClosingFuture;
 import me.akariiinnn.modtest.ModTest;
 import me.akariiinnn.modtest.item.custom.DowsingRodItem;
 import me.akariiinnn.modtest.item.custom.FireSwordItem;
+import me.akariiinnn.modtest.item.custom.ModArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,7 +18,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> PISTINE = ITEMS.register("pistine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
-
     public static final RegistryObject<Item> RAW_PISTINE = ITEMS.register("raw_pistine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
 
@@ -25,32 +26,40 @@ public class ModItems {
 
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB).food(ModFoods.CUCUMBER)));
-
     public static final RegistryObject<Item> CUCUMBER_SALAD = ITEMS.register("cucumber_salad",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB).food(ModFoods.CUCUMBER_SALAD)));
 
     public static final RegistryObject<Item> PISTINE_SWORD = ITEMS.register("pistine_sword",
             () -> new SwordItem(ModTiers.PISTINE, 2, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
-
     public static final RegistryObject<Item> PISTINE_PICKAXE = ITEMS.register("pistine_pickaxe",
             () -> new PickaxeItem(ModTiers.PISTINE, 1, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
-
     public static final RegistryObject<Item> PISTINE_AXE = ITEMS.register("pistine_axe",
             () -> new AxeItem(ModTiers.PISTINE, 4, 0.4f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
-
     public static final RegistryObject<Item> PISTINE_SHOVEl = ITEMS.register("pistine_shovel",
             () -> new ShovelItem(ModTiers.PISTINE, 1, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
-
     public static final RegistryObject<Item> PISTINE_HOE = ITEMS.register("pistine_hoe",
             () -> new HoeItem(ModTiers.PISTINE, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
 
     public static final RegistryObject<Item> FIRE_SWORD = ITEMS.register("fire_sword",
             () -> new FireSwordItem(Tiers.IRON,1,1f,
+                    new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+
+    public static final RegistryObject<Item> PISTINE_HELMET = ITEMS.register("pistine_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.PISTINE, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+    public static final RegistryObject<Item> PISTINE_CHESTPLATE = ITEMS.register("pistine_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PISTINE, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+    public static final RegistryObject<Item> PISTINE_LEGGINGS = ITEMS.register("pistine_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PISTINE, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+    public static final RegistryObject<Item> PISTINE_BOOTS = ITEMS.register("pistine_boots",
+            () -> new ArmorItem(ModArmorMaterials.PISTINE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
 
 
