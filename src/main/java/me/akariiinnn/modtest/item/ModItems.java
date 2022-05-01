@@ -2,6 +2,8 @@ package me.akariiinnn.modtest.item;
 
 import com.google.common.util.concurrent.ClosingFuture;
 import me.akariiinnn.modtest.ModTest;
+import me.akariiinnn.modtest.block.ModBlocks;
+import me.akariiinnn.modtest.item.custom.DataTabletItem;
 import me.akariiinnn.modtest.item.custom.DowsingRodItem;
 import me.akariiinnn.modtest.item.custom.FireSwordItem;
 import me.akariiinnn.modtest.item.custom.ModArmorItem;
@@ -30,16 +32,16 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB).food(ModFoods.CUCUMBER_SALAD)));
 
     public static final RegistryObject<Item> PISTINE_SWORD = ITEMS.register("pistine_sword",
-            () -> new SwordItem(ModTiers.PISTINE, 2, 1f,
+            () -> new SwordItem(ModTiers.PISTINE, 3, -2.2f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
     public static final RegistryObject<Item> PISTINE_PICKAXE = ITEMS.register("pistine_pickaxe",
-            () -> new PickaxeItem(ModTiers.PISTINE, 1, 0f,
+            () -> new PickaxeItem(ModTiers.PISTINE, 1, -2.6f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
     public static final RegistryObject<Item> PISTINE_AXE = ITEMS.register("pistine_axe",
-            () -> new AxeItem(ModTiers.PISTINE, 4, 0.4f,
+            () -> new AxeItem(ModTiers.PISTINE, 5.2f, -2.8f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
     public static final RegistryObject<Item> PISTINE_SHOVEl = ITEMS.register("pistine_shovel",
-            () -> new ShovelItem(ModTiers.PISTINE, 1, 0f,
+            () -> new ShovelItem(ModTiers.PISTINE, 1, -2.8f,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
     public static final RegistryObject<Item> PISTINE_HOE = ITEMS.register("pistine_hoe",
             () -> new HoeItem(ModTiers.PISTINE, 0, 0f,
@@ -61,6 +63,19 @@ public class ModItems {
     public static final RegistryObject<Item> PISTINE_BOOTS = ITEMS.register("pistine_boots",
             () -> new ArmorItem(ModArmorMaterials.PISTINE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+
+    public static final RegistryObject<Item> MAGIC_DUST = ITEMS.register("magic_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+
+    public static final RegistryObject<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB).stacksTo(1)));
+
+    public static final RegistryObject<Item> SUPRA_BOW = ITEMS.register("supra_bow",
+            () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB).durability(500)));
+
+    public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.PISTINE_TAB)));
+
 
 
     public static void register(IEventBus eventBus) {

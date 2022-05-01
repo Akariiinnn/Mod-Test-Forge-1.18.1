@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false": { "model": "modtest:block/pistine_lamp_off" },
+    "clicked=true": { "model": "modtest:block/pistine_lamp_on" }
+  }
+}

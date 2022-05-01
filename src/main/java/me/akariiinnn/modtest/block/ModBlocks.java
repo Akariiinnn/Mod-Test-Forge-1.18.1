@@ -1,9 +1,13 @@
 package me.akariiinnn.modtest.block;
 
 import me.akariiinnn.modtest.ModTest;
+import me.akariiinnn.modtest.block.custom.CucumberPlantBlock;
+import me.akariiinnn.modtest.block.custom.PistineLampBlock;
 import me.akariiinnn.modtest.block.custom.SpeedyBlock;
 import me.akariiinnn.modtest.item.ModCreativeModeTab;
 import me.akariiinnn.modtest.item.ModItems;
+import me.akariiinnn.modtest.sound.ModSounds;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,10 +41,10 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
     public static final RegistryObject<Block> DEEPSLATE_PISTINE_ORE = registerBlock("deepslate_pistine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)), ModCreativeModeTab.PISTINE_TAB);
     public static final RegistryObject<Block> NETHERRACK_PISTINE_ORE = registerBlock("netherrack_pistine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PISTINE_TAB);
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)), ModCreativeModeTab.PISTINE_TAB);
 
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -82,6 +86,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> POTTED_PINK_ROSE = registerBlockWithoutBlockItem("potted_pink_rose",
             () -> new FlowerPotBlock(null, ModBlocks.PINK_ROSE,
                     BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).noOcclusion()));
+
+    public static final RegistryObject<Block> WINTER_WINDOW = registerBlock("winter_window",
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> PISTINE_LAMP = registerBlock("pistine_lamp",
+            () -> new PistineLampBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2).requiresCorrectToolForDrops()
+                    .lightLevel((state) -> state.getValue(PistineLampBlock.CLICKED) ? 15 : 0).sound(ModSounds.PISTINE_LAMP_SOUNDS)), ModCreativeModeTab.PISTINE_TAB);
+
+    public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutBlockItem("cucumber_plant",
+            () -> new CucumberPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

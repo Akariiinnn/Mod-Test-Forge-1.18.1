@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XRX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:glass"
+    },
+    "R": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "modtest:winter_window"
+  }
+}
