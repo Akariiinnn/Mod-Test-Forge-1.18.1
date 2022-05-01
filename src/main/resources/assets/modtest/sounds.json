@@ -1,0 +1,38 @@
+{
+  "dowsing_rod_found_ore": {
+    "subtitle": "sounds.modtest.dowsing_rod_found_ore",
+    "sounds": [
+      "modtest:dowsing_rod_found_ore"
+    ]
+  },
+  "pistine_lamp_break": {
+    "subtitle": "sounds.modtest.pistine_lamp_break",
+    "sounds": [
+      "modtest:pistine_lamp_break"
+    ]
+  },
+  "pistine_lamp_step": {
+    "subtitle": "sounds.modtest.pistine_lamp_step",
+    "sounds": [
+      "modtest:pistine_lamp_step"
+    ]
+  },
+  "pistine_lamp_place": {
+    "subtitle": "sounds.modtest.pistine_lamp_place",
+    "sounds": [
+      "modtest:pistine_lamp_place"
+    ]
+  },
+  "pistine_lamp_hit": {
+    "subtitle": "sounds.modtest.pistine_lamp_hit",
+    "sounds": [
+      "modtest:pistine_lamp_hit"
+    ]
+  },
+  "pistine_lamp_fall": {
+    "subtitle": "sounds.modtest.pistine_lamp_fall",
+    "sounds": [
+      "modtest:pistine_lamp_fall"
+    ]
+  }
+}

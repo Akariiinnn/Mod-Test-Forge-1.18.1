@@ -2,8 +2,10 @@
   "item.modtest.pistine": "Pistine",
   "item.modtest.raw_pistine": "Pistine Brut",
   "item.modtest.dowsing_rod": "Bâton de Sourcier",
+
   "item.modtest.cucumber": "Concombre",
-  "item.modtest.cucumber_salad": "Salade de Cocombre",
+  "item.modtest.cucumber_salad": "Salade de Concombre",
+  "item.modtest.cucumber_seeds": "Graïnes de Concombre",
 
   "item.modtest.pistine_sword": "Épée en Pistine",
   "item.modtest.pistine_pickaxe": "Pioche en Pistine",
@@ -17,6 +19,11 @@
   "item.modtest.pistine_leggings": "Jambières en Pistine",
   "item.modtest.pistine_boots": "Bottes en Pistine",
 
+  "item.modtest.magic_dust": "Poudre Magique",
+
+  "item.modtest.data_tablet": "Tablette de données",
+
+  "item.modtest.supra_bow": "Arc Supra",
 
   "block.modtest.pistine_block": "Bloc de Pistine",
   "block.modtest.raw_pistine_block": "Bloc de Pistine Brut",
@@ -33,13 +40,20 @@
   "block.modtest.pink_rose": "Rose Rose",
   "block.modtest.potted_pink_rose": "Rose Rose en Pot",
 
+  "block.modtest.winter_window": "Fenètre de Noël",
+
   "block.modtest.pistine_slab": "Demi-dalle en Pistine",
   "block.modtest.pistine_stairs": "Escaliers en Pistine",
   "block.modtest.pistine_fence": "Barrière en Pistine",
   "block.modtest.pistine_wall": "Mur en Pistine",
   "block.modtest.pistine_fence_gate": "Portillon en Pistine",
+  "block.modtest.pistine_lamp": "Lampe en Pistine",
+
+  "block.modtest.cucumber_plant": "Plants de Concombre",
 
   "itemGroup.pistinetab": "Pistine Mod",
+
+  "sounds.modtest.dowsing_rod_found_ore": "Minerai Trouvé avec le Bâton de Sourcier",
 
   "item.modtest.dowsing_rod.no_valuables": "No Valuables Found!"
 }

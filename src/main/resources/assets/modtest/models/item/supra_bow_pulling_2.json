@@ -1,0 +1,6 @@
+{
+  "parent": "modtest:item/supra_bow",
+  "textures" : {
+    "layer0": "modtest:item/supra_bow_pulling_2"
+  }
+}

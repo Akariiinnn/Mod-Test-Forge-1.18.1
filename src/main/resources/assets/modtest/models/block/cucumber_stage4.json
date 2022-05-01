@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "modtest:block/cucumber_stage4"
+  }
+}

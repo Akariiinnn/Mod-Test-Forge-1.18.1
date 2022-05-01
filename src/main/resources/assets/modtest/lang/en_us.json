@@ -2,8 +2,10 @@
   "item.modtest.pistine": "Pistine",
   "item.modtest.raw_pistine": "Raw Pistine",
   "item.modtest.dowsing_rod": "Dowsing Rod",
+
   "item.modtest.cucumber": "Cucumber",
   "item.modtest.cucumber_salad": "Cucumber Salad",
+  "item.modtest.cucumber_seeds": "Cucumber Seeds",
 
   "item.modtest.pistine_sword": "Pistine Sword",
   "item.modtest.pistine_pickaxe": "Pistine Pickaxe",
@@ -17,6 +19,11 @@
   "item.modtest.pistine_leggings": "Pistine Leggings",
   "item.modtest.pistine_boots": "Pistine Boots",
 
+  "item.modtest.magic_dust": "Magic Dust",
+
+  "item.modtest.data_tablet": "Data Tablet",
+
+  "item.modtest.supra_bow": "Supra Bow",
 
   "block.modtest.pistine_block": "Pistine Block",
   "block.modtest.raw_pistine_block": "Raw Pistine Block",
@@ -33,13 +40,20 @@
   "block.modtest.pink_rose": "Pink Rose",
   "block.modtest.potted_pink_rose": "Potted Pink Rose",
 
+  "block.modtest.winter_window": "Winter Window",
+
   "block.modtest.pistine_slab": "Pistine Slab",
   "block.modtest.pistine_stairs": "Pistine Stairs",
   "block.modtest.pistine_fence": "Pistine Fence",
   "block.modtest.pistine_wall": "Pistine Wall",
   "block.modtest.pistine_fence_gate": "Pistine Fence Gate",
+  "block.modtest.pistine_lamp": "Pistine Lamp",
+
+  "block.modtest.cucumber_plant": "Cucumber Plant",
 
   "itemGroup.pistinetab": "Pistine Mod",
+
+  "sounds.modtest.dowsing_rod_found_ore": "Dowsing Rod Found Ore",
 
   "item.modtest.dowsing_rod.no_valuables": "No Valuables Found!"
 }
